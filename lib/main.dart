@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navigation_rail/youtube_screen.dart';
+import 'package:navigation_rail/shared_perferences/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +15,6 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(primarySwatch: Colors.deepPurple),
-        home: const YoutubeScreen());
+        home: const HomePage());
   }
 }
